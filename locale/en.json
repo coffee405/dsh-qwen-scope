@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Local engine prefill cell",
+    "description": "Adds a cell beside the composer's own statistics that shows, in real time, the prompt tokens per second the local inference engine running this session's model is computing. Engines are found in the model provider settings, so no second server list is written; the settings page lists what was found, which of them answer, and which one to report when a session is not on a local model. vLLM, SGLang, Radiance and TensorFold are read under their own metric names, and a number an engine does not count is left out instead of shown as zero. Nothing is written to an engine."
+  }
+}

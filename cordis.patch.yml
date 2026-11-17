@@ -1,0 +1,3 @@
+- insert:
+    - id: qwen-scope
+      name: dsh-qwen-scope
